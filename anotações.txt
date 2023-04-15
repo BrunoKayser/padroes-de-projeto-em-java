@@ -1,0 +1,10 @@
+STRATEGY
+	- Utilizado para lógicas que contenham muitos IF ELSE
+	- Transforma os IFs em classes, no qual cada classe contém uma lógica.
+
+CHAIN OF RESPONSABILITY:
+	- Usado quando tenho muitos tipos de IFs e preciso que a validação seja em apenas
+	 um deles
+
+STATE:
+	- Quando tenho ifs com muitas dependências, exemplo: se estiver em um estado X, não pode ir para o Y, se estiver no Y, pode ir para X e Z, e assim por adiante.
